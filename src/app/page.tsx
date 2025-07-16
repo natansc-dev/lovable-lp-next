@@ -8,10 +8,12 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
+import { SplashCursor } from "@/components/ui/splash-cursor";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SplashCursor />
       <Navbar />
       <Hero />
       <SocialProof />
