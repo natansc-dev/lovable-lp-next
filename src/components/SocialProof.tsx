@@ -18,7 +18,7 @@ const SocialProof = () => {
                   </svg>
                 ))}
               </div>
-              <p className="text-foreground italic">"{testimonial}"</p>
+              <p className="text-foreground italic">&ldquo;{testimonial}&rdquo;</p>
             </div>
           ))}
         </div>
